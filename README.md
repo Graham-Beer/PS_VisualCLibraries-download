@@ -5,7 +5,8 @@
  Example:
  
  Script will create a folder structure as below:
- 
+
+```
  D:\SETUP
 └───Install - Microsoft Visual C++ - x86 - x64
     ├───VC2005
@@ -26,6 +27,7 @@
     └───VC2015
         ├───VC2015X64
         └───VC2015X86
-        
+```    
+
 The D:\SETUP is the changable value passed in from the command input: 
 .\Invoke-VisualC_RuntimeLibrariesDownload.ps1 -RootFolder d:\setup -TreeView
